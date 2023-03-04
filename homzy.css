@@ -448,7 +448,7 @@ button:hover{
       align-items: center;
       justify-content: center;
       display: block;
-      width:60%;
+      width:80%;
     }
 
     .info h2{
@@ -460,6 +460,13 @@ button:hover{
       text-align: justify;
       font-size: 15px;
       padding: 2rem;
+    }
+    .Profile{
+      width: 270px;
+      
+    }
+    .profile-img{
+      width: 220px;
     }
 
   }
@@ -551,9 +558,10 @@ button:hover{
    @media only screen and (max-width: 900px){
 
     .sub-head-gallery{
-      padding: 6rem 1rem 4rem 1rem;
+      padding: 6rem 0 4rem 0;
 
     }
+
     .subhead-p-text{
       font-size: 15px;
       line-height: 1.2;
@@ -672,7 +680,7 @@ span p{
 
  @media only screen and (max-width: 900px){
   .contact{
-    padding: 1rem;
+    padding: 1rem 1rem 3rem 1rem;
   }
   .contact h1{
    font-size: 1.5rem;
