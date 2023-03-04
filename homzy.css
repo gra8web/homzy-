@@ -114,6 +114,8 @@ header{
     background: red; 
 }
 
+
+
 .nav-bar ul li a.active:hover{
   background: red;
   background: transparent;
@@ -284,6 +286,8 @@ button:hover{
   .btn-2{
     margin: 5px;
   }
+  
+
 }
 
 
@@ -297,7 +301,7 @@ button:hover{
   }
   .about h1{
     padding: 2rem;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
     text-align: center;
     font-size: 2rem;
   }
@@ -374,7 +378,7 @@ button:hover{
     height: 220px;
     width: 260px;
     border-radius: 20px;
-    filter: grayscale(0);
+    filter: grayscale(100%);
     cursor: pointer;
     transition: 400ms;
     
@@ -444,7 +448,7 @@ button:hover{
       align-items: center;
       justify-content: center;
       display: block;
-      width:89%;
+      width:60%;
     }
 
     .info h2{
@@ -455,6 +459,7 @@ button:hover{
     .info p{
       text-align: justify;
       font-size: 15px;
+      padding: 2rem;
     }
 
   }
@@ -702,6 +707,7 @@ span p{
  .contact-col .fa, .contact-col .fas{
   padding: 10px;
   font-size: 15px;
+
  }
 
 span p{
