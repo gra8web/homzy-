@@ -142,7 +142,7 @@ header{
     }
 
     .logo img{
-      width: 4rem;
+      width: 3rem;
     }
 
     .hamburger .line{
@@ -284,8 +284,6 @@ button:hover{
   .btn-2{
     margin: 5px;
   }
-  
-
 }
 
 
@@ -428,6 +426,37 @@ button:hover{
       display: flex;
     }
     
+    
+  }
+
+  @media only screen and (max-width: 500px){
+    .about{
+     padding: 0 1.5rem;
+      
+    }
+    .about h1{
+      font-size: 1.5rem;
+      
+    }
+
+    .imageimg img{
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      display: block;
+      width:89%;
+    }
+
+    .info h2{
+      font-size: 17px;
+      padding: 1rem;
+
+    }
+    .info p{
+      text-align: justify;
+      font-size: 15px;
+    }
+
   }
 
 
@@ -465,7 +494,7 @@ button:hover{
     flex-direction: column;
     align-items: center;
     width: 300px;
-    height: 360px;
+    height: 370px;
     background-color:rgb(24, 7, 7);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -505,6 +534,7 @@ button:hover{
   .gallery-btn{
     text-align: center;
     padding-bottom: 4rem;
+    margin-top: 2rem;
   }
   .gallery-btn button:hover{
     color: rgb(24, 7, 7);
@@ -514,8 +544,13 @@ button:hover{
 
   /************************* LANDING PAGE MUSIC GALLERY MEDIA ******************/
    @media only screen and (max-width: 900px){
+
+    .sub-head-gallery{
+      padding: 6rem 1rem 4rem 1rem;
+
+    }
     .subhead-p-text{
-      font-size: 17px;
+      font-size: 15px;
       line-height: 1.2;
       padding: 0 2rem;
     }
@@ -596,9 +631,8 @@ span p{
  padding: 0;
 }
 
-
-
-.contact-col input, .contact-col textarea{
+.contact-col input, 
+.contact-col textarea{
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
@@ -633,14 +667,11 @@ span p{
 
  @media only screen and (max-width: 900px){
   .contact{
-    align-items: center;
-    padding-top: 5rem;
-    
+    padding: 1rem;
   }
   .contact h1{
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
-    padding: 0;
+   font-size: 1.5rem;
+    padding: 2rem;
   }
   
   .contact-us{
@@ -668,13 +699,11 @@ span p{
   padding: 0;
  }
   
- .contact-col .fa,
-.contact-col .fas{
-  margin-right: 15px;
+ .contact-col .fa, .contact-col .fas{
   padding: 10px;
   font-size: 15px;
+ }
 
-}
 span p{
   font-size: 13px;
   padding: 0;
@@ -872,6 +901,10 @@ span p{
 
 
 @media only screen and (max-width: 900px){
+
+  .card-container{
+    padding: 1.5rem;
+  }
 
   .card:hover{
    transform: none;
