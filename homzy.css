@@ -207,9 +207,9 @@ header{
 }
 
 .content p{
-  font-size: 25px;
+  font-size: 28px;
   letter-spacing: 1.3px;
-  line-height: 1.3;
+  line-height: 1.5;
   text-transform: capitalize;
 }
 
@@ -273,7 +273,6 @@ button:hover{
 
 .content p{
   font-size: 17px;
-  line-height: 1.3;
 }
   .btn-container{
     margin-top: 30px;
@@ -284,7 +283,7 @@ button:hover{
     font-size: 15px;
 }
   .btn-2{
-    margin: 5px;
+    margin-top: 10px;
   }
   
 
@@ -353,13 +352,16 @@ button:hover{
   .profiles{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 3rem;
     flex-wrap: wrap;
   }
   
   .Profile{
-    width: 320px;
+    width: 300px;
     height: 350px;
+    display: flex;
+    justify-content: center;
     text-align: center;
     color: rgb(24, 7, 7);
     border-radius: 10px;
@@ -378,15 +380,8 @@ button:hover{
     height: 220px;
     width: 260px;
     border-radius: 20px;
-    filter: grayscale(100%);
     cursor: pointer;
-    transition: 400ms;
     
-  }
-  
-  .profile-img:hover{
-   
-    filter: grayscale(100%);
   }
   
   h5{
@@ -395,7 +390,6 @@ button:hover{
     letter-spacing: 2px;
     margin-top: 30px;
   }
-
 
   p{
     letter-spacing: 2px;
@@ -429,8 +423,6 @@ button:hover{
       align-items: center;
       display: flex;
     }
-    
-    
   }
 
   @media only screen and (max-width: 500px){
@@ -448,25 +440,26 @@ button:hover{
       align-items: center;
       justify-content: center;
       display: block;
-      width:80%;
+      width:90%;
     }
 
     .info h2{
       font-size: 17px;
-      padding: 1rem;
+      margin: 3px 0 1px 0;
 
     }
     .info p{
       text-align: justify;
       font-size: 15px;
-      padding: 2rem;
     }
     .Profile{
-      width: 270px;
+      width: 220px;
+      height: 400px;
       
     }
     .profile-img{
-      width: 220px;
+      width: 180px;
+      
     }
 
   }
@@ -506,7 +499,7 @@ button:hover{
     flex-direction: column;
     align-items: center;
     width: 300px;
-    height: 370px;
+    height: 390px;
     background-color:rgb(24, 7, 7);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -519,10 +512,10 @@ button:hover{
   }
   .card-image-sub {
     width: 100%;
-    height: 16rem;
+    height: 17rem;
     object-fit: cover;
     background-position: center;
-    padding: .8rem;
+    padding: 0;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-radius: 25px;
@@ -532,21 +525,19 @@ button:hover{
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-    padding: 0;
-    margin: 5px;
-    letter-spacing: 2px;
+    padding-top: 15px;
+    letter-spacing: 1px;
   }
   
   .card-description-sub {
     font-size: 14px;
     text-align: center;
     overflow: hidden;
-    padding: 0 15px;
+    padding: 0 10px;
   }
   .gallery-btn{
     text-align: center;
-    padding-bottom: 4rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   .gallery-btn button:hover{
     color: rgb(24, 7, 7);
@@ -565,7 +556,19 @@ button:hover{
     .subhead-p-text{
       font-size: 15px;
       line-height: 1.2;
-      padding: 0 2rem;
+      padding: 0 1rem;
+    }
+     
+    .card-title-sub{
+     margin-top: 15px;
+     padding: 0 4px;
+    }
+
+
+    .card-image-sub {
+      height: 16rem;
+      margin-top: 10px;
+      
     }
 
    }
@@ -760,7 +763,7 @@ span p{
 
 .footer .footer-container .box h3{
   padding: .5rem 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .footer .footer-container .box a{
@@ -768,7 +771,6 @@ span p{
   padding: .5rem 0;
   font-size: .8rem;
   color: wheat;
- 
 }
 
 .footer .footer-container .box a:hover{
@@ -778,7 +780,7 @@ span p{
 
 .credit{
   padding: 2rem;
-  font-size: 16px;
+  font-size: 12px;
   background: wheat;
   text-align: center;
   color: rgb(24, 7, 7);
