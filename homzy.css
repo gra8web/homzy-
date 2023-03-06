@@ -287,12 +287,6 @@ button:hover{
   }
 }
 
-@media only screen and (max-width: 500px){
-  .content p{
-    padding: 0 1rem;
-  }
-}
-
 
 /******************ABOUT US PAGE  *****************/
 
@@ -765,7 +759,7 @@ span p{
  @media only screen and (max-width: 500px){
   .contact-p{
     font-size: 15px;
-    padding: 0 3rem;
+    padding: 0 1rem;
   }
  }
 
@@ -966,7 +960,5 @@ span p{
  
   .gallery-subhead p{
     font-size: 15px ;
-    padding: 0 3rem;
-   
   }
 }
