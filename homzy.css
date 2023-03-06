@@ -289,8 +289,7 @@ button:hover{
 
 @media only screen and (max-width: 500px){
   .content p{
-    text-align: start;
-    padding: 0 4rem;
+    padding: 0 1rem;
   }
 }
 
@@ -332,15 +331,18 @@ button:hover{
     display: block;
     margin-top: 1rem;
     cursor: pointer;
-    font-size: 15px;
-    font-weight: 600;
-    
+    font-size: 12px;
+    color: red;   
   }
   .read-more:hover{
     text-decoration: underline;
   }
-  .info p{
+
+  .info h4{
     font-size: 18px;
+  }
+  .info p{
+    font-size: 17px;
   }
 
   
@@ -443,7 +445,7 @@ button:hover{
       margin-top: 2rem;
     }
     .info h4{
-      font-size: 17px;
+      font-size: 15px;
     }
 
     .info p{
@@ -580,8 +582,7 @@ button:hover{
       
    }
    .subhead-p-text{
-    text-align: start;
-    padding:0 4rem;
+    padding:0 1rem;
   }
     
    }
@@ -763,9 +764,8 @@ span p{
 
  @media only screen and (max-width: 500px){
   .contact-p{
-    text-align: start;
     font-size: 15px;
-    padding-left: 3rem;
+    padding: 0 3rem;
   }
  }
 
@@ -966,7 +966,6 @@ span p{
  
   .gallery-subhead p{
     font-size: 15px ;
-    text-align: start;
     padding: 0 3rem;
    
   }
