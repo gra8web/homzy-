@@ -211,6 +211,7 @@ header{
   letter-spacing: 1.3px;
   line-height: 1.5;
   text-transform: capitalize;
+  margin-top: 1rem;
 }
 
 .btn-container{
@@ -950,7 +951,7 @@ span p{
   }
   .gallery-subhead p{
     line-height: 1.2;
-    padding: 0 10px;
+    padding: 10px 10px;
     font-size: 18px;
   }
  
@@ -960,5 +961,6 @@ span p{
  
   .gallery-subhead p{
     font-size: 15px ;
+    margin: 1rem 0 1.5rem 0;
   }
 }
